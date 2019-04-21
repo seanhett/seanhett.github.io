@@ -1,5 +1,13 @@
 .App {
+  border: 2px solid black;
   text-align: center;
+  background: #f5f5f5;
+  color: #333;
+  margin: 20px;
+  margin-left: 1em;
+  padding-left: 1em;
+
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
 
 .App-logo {
@@ -9,18 +17,79 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  text-align: left;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  font-size: calc(10px + 0.75vmin);
+ }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
+}
+
+.App-footer{
+  min-height: 1vh;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  
+  justify-content: center;
+  font-size: calc(10px + 0.75vmin);
+}
+
+.contact-icon{
+  width: 2em;
+  height: 2em;
+}
+ul.header li {
+  display: inline-block;
+  padding-right: 10px;
+  list-style-type: none;
+ 
+}
+ul.header {
+  padding: 0;
+  margin: 0;
+}
+.header{
+  font-size: 0.7em;
+  text-align: left;
+  padding: 15px;
+}
+ul.header li a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  margin: -10px;
+  
+  display: contents;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content{
+  padding: 4em;
+  margin: 1em;
+}
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
 }
 
 @keyframes App-logo-spin {
